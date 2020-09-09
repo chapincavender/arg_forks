@@ -2,7 +2,7 @@
 Analyze arginine-RNA interactions
 
 # Dependencies
-You must install LOOS (download at [https://github.com/GrossfieldLab/loos]) to 
+You must install LOOS (download at https://github.com/GrossfieldLab/loos) to 
 use this script. See `INSTALL.md` for installation instructions and dependencies.
 
 # Usage
@@ -41,6 +41,6 @@ the guanidinium group, the output will contain the RNA residue name, RNA residue
 ID, stacking distance in angstroms, and angle between the normal vectors in deg.
 
 For arginine rotamers and RNA backbone suites, a string containing an 
-exclamation mark "!" indicates that the residue was assigned as an outlier. For 
-RNA backbone suites, "NN" indicates that there was no valid dinucleotide to 
-which to assign a backbone conformation because of a chain termination.
+exclamation mark `"!"` indicates that the residue was assigned as an outlier. 
+For RNA backbone suites, `"NN"` indicates that there was no valid dinucleotide 
+to which to assign a backbone conformation because of a chain termination.
